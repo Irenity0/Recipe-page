@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+
+body {
+    background-color: #fad390;
+    font-family: 'Gaegu', Arial;
+    font-size: 1.25rem;
+    color: #576574;
+}
+
+.d-f {
+    display: flex;
+}
+
+#grey {
+    color: #485460;
+    font-weight: bold;
+}
+
+.purple {
+    color: #B33771;
+}
+
+.brown {
+    color: #914F1E;
+}
+
+.card {
+    width: 60%;
+    margin: 6rem auto;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.img-container {
+    width: auto;
+}
+
+.img-container > img {
+    width: 100%;
+}
+
+.title, 
+.title2 {
+    font-family: 'Lora', Helvetica;
+}
+
+.title {
+    font-size: 3rem;
+    color: #2f3542;
+}
+
+.title2 {
+    color: #914F1E;
+}
+
+.title3 {
+    margin-top: 2rem;
+}
+
+#preparation-list {
+    background-color: #ffe9bd;
+    padding: 1rem 2rem;
+}
+
+.purple-list::marker {
+    color: #B33771;
+}
+
+.brown-list::marker {
+    color: #914F1E;
+    font-weight: bold;
+}
+
+li {
+    margin: .50rem;
+    line-height: 1.5rem;
+}
+
+.table {
+    width: 100%;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+} 
+
+.row1,
+.row2 {
+    width: 50%;
+    flex-direction: column;
+} 
